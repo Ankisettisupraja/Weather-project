@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/6123aa4da7d85907b823dc29/1646063669874-SKXA5SWVYES9QIB01OHI/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  /* background-color: #f5f5f5; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 200px;
+  background-image: radial-gradient(circle, rgba(7, 229, 249, 0.2), rgb(11, 204, 253));
+}
+
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cityInput {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.weather-image img {
+  max-width: 100%;
+}
+
+.weather-temp,
+.weather-location {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.element {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.icon {
+  max-width: 50px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
